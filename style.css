@@ -1,0 +1,167 @@
+ *{
+    box-sizing: border-box;
+ }
+ 
+ 
+ 
+ /*Barra de navegacion*/
+
+.navbar{
+    padding: 2rem;
+    background-color: #f5f6f7;
+}
+
+.navbar-collapse{
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+ /*Estilos generales*/
+
+#section-principal{
+display:flex ;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+#yo_soy{
+font-size: 2.5rem;
+font-family: 'Rubik Dirt', cursive;
+}
+
+
+
+ /*Seccion Hero o Seccion principal*/
+
+.hero{
+    background-color: #f5f6f7;
+    min-height: 450px;
+    text-align: center;
+}
+
+.hero-principal{
+    padding: 3rem;
+}
+
+.hero-imagen-desarrollador{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+
+.hero-principal h2{
+    font-size: 1.5rem;
+    color: #615151;
+}
+
+ /*Seccion estudios*/
+
+.container{
+    display: flex;
+    border: 2px solid;
+    padding: 5px;
+    align-items: center;
+    margin-top: 25px;
+    border-radius: 10px;
+    }
+    
+    #boton_1{
+        font-size: 15px;
+        height: 55px;
+        width: 55px;
+        margin-right: 5px;
+        border-radius: 10px;
+    }
+    
+    #boton_2{
+        font-size: 15px;
+        height: 55px;
+        width: 55px;
+        margin-right: 5px;
+        border-radius: 10px;
+    }
+    
+    #boton_3{
+        font-size: 15px;
+        height: 55px;
+        width: 55px;
+        margin-right: 5px;
+        border-radius: 10px;
+    }
+    
+    
+    #boton_4{
+        font-size: 15px;
+        height: 55px;
+        width: 55px;
+        margin-right: 5px;
+        border-radius: 10px;
+    }
+    
+    #info_1{
+        font-size: 20px;
+    }
+    
+    #info_2{
+        font-size: 20px;
+    }
+    
+    #info_3{
+        font-size: 20px;
+    }
+    
+    #info_4{
+        font-size: 20px;
+    }
+    
+     /*Seccion estudios*/
+
+    .contacto{
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+     }
+    
+     .container-fluid{
+        margin-top: 10px;
+        padding-top: 25px;
+        color: black;
+        justify-content: center;
+     }
+    
+     .titulo_contacto{
+        margin-top: 25px;
+        font-weight: bold;
+        font-size: 30px;
+    
+     }
+    
+    
+    .contact{
+        padding: 9px 0;
+        margin-top: 5px;
+       
+    }
+    
+    span{
+        margin-top: 5px;
+        font-size: 20px;
+    }
+
+/*Adaptable (responsivo)*/
+
+@media screen and (max-width:767px) {
+    
+    .navbar-brand{
+        display: none;
+    }
+}
+
+@media screen and (min-width:700px) {
+
+    .hero-inferior-imagen{
+        max-width: 600px;
+    }
+}

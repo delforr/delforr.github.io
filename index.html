@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!--Metadatos-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Delfor Reyes">
+    <meta name="description" content="Portafolio de desarrollo de Delfor Reyes">
+    <meta name="keywords" content="HTML, CSS, Javascript, React">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Titulo-->
+    <title>DR | Desarrollo web Front-End </title>
+    <!--Favicon-->
+    <link rel="icon" type="image/x-icon" href="img/favicon.png">
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!--Conecto mi CSS-->
+    <link rel="stylesheet" href="style.css">
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap" rel="stylesheet">
+    <!--Aqui esta mi coneccion con iconos de font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Open Graph data -->
+    <meta property="og:title" content="CV Delfor Reyes" />
+    <meta property="og:type" content="CV" />
+    <meta property="og:url" content=" https://github.com/delforr" />
+    <meta property="og:image" content=" img/foto_perfil.jpg" />
+    <meta property="og:description" content="Este es un cv de programador" />
+
+    
+</head>
+<body>
+     <!--Barra de navegacion-->
+
+  <nav class="navbar navbar-expand-md navbare-light">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-Toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbar-Toggler">
+            <a class="navbar-brand" href="#">
+							<img src="img/favicon.png"   width="50"  alt="Logo de la pagina web">
+						</a>
+            <ul class="navbar-nav d-flex justify-content-center align-items-center">
+              <li class="nav-item">
+                <a class="nav-link" href="#yo_soy">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#estudios">Estudios</a>
+              </li>
+							<li class="nav-item">
+                <a class="nav-link" href="#contacto">Contacto</a>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+  </nav>
+
+     <!--Seccion Hero o Seccion principal-->
+     
+  <section class="hero align-items-stretch" id="seccion-principal">
+
+      <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+        <img class="hero-imagen-desarrollador rounded-circle" src="img/foto_perfil.png" alt="foto perfil de Delfor Reyes">
+        <h1 id="yo_soy">Hola, soy Delfor Reyes</h1>
+        <h2>Desarrollo sitios web y escribo artículos sobre programación</h2>
+      </div>
+      <div class="hero-inferior">
+        <img class="hero-inferior-imagen img-fluid" src="img/compu.png" alt="Monitor, laptop y logos de HTML, CSS, Javascript y React">
+      </div>
+
+  </section>
+
+
+
+  <section class="estudios" id="estudios">
+
+      <div class="container text-center">
+      
+        <button type="button" id="boton_1">Hacer Click!</button>
+        
+        <p id="info_1">Si quieres saber cuando empecé a estudiar</p>
+        
+      </div>
+  
+      <div class="container text-center">
+      
+          <button type="button" id="boton_2">Hacer Click!</button>
+      
+          <p id="info_2"> Si quieres saber más sobre mi</p>
+      
+      </div>
+  
+      <div class="container text-center">
+      
+          <button type="button" id="boton_3">Hacer Click!</button>
+      
+          <p id="info_3">Si quieres saber que codigos estudié</p>
+      
+      </div>
+  
+      <div class="container text-center">
+      
+          <button type="button" id="boton_4">Hacer Click!</button>
+      
+          <p id="info_4">Si quieres saber cual es mi objetivo en programación</p>
+      
+      </div>
+  
+  </section>
+  
+  
+
+<section class="contacto" id="contacto">
+
+
+    <h2 class="titulo_contacto">Contacto</h2>
+
+
+    <div class="container-fluid">
+
+      <h2 class="contact">
+         <i class="fa-solid fa-phone"></i> Telefono
+      </h2>
+
+         <span>261 - 5888840</span>
+
+      <h2 class="contact">
+        <i class="fa-solid fa-envelope"></i> Correo
+      </h2>
+         <span >delfor@gmail.com</span>
+
+      <h2 class="contact">
+         <i class="fa-solid fa-globe"></i> Pagina Web
+      </h2>
+         <span> delforreyes.com</span>
+
+    </div>
+
+</section>
+
+
+
+
+
+
+
+<!--Aqui conecto Javascript-->
+
+  <script src="main.js"></script>
+
+
+<!--Aqui conecto Bootstrap-->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
